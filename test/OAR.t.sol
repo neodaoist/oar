@@ -1,14 +1,14 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Counter} from "../src/Counter.sol";
+import {OAR} from "../src/OAR.sol";
 
-contract CounterTest is Test {
-    Counter public counter;
+contract OARTest is Test {
+    OAR public counter;
 
     function setUp() public {
-        counter = new Counter();
+        counter = new OAR();
         counter.setNumber(0);
     }
 
