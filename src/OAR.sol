@@ -1,14 +1,30 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity 0.8.23;
 
 contract OAR {
-    uint256 public number;
+    /////////
 
-    function setNumber(uint256 newNumber) public {
-        number = newNumber;
+    ///////// Submit
+
+    function submit(
+        string memory name,
+        string memory description,
+        string memory category,
+        string memory url,
+        string memory imageUrl,
+        string memory verb,
+        address contractAddress,
+        bytes4 functionSelector,
+        address assetAddress,
+        uint256 assetAmount,
+        uint256 maxActionsPerWallet
+    ) public {
+        // 
     }
 
-    function increment() public {
-        number++;
+    ///////// Sweep
+
+    function sweep() public {
+        // 
     }
 }
