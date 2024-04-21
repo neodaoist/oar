@@ -1,8 +1,12 @@
-## OAR
+## Onchain App Registry
 
-**Onchain App Registry is a permissionless registry for contextual information about Ethereum smart contract apps.**
+**OAR is a permissionless registry for contextual information about onchain apps deployed on Base.**
 
-build with [BOAT](https://github.com/coinbase/build-onchain-apps), go places with [OAR](https://github.com/neodaoist/oar)
+### Build with [BOAT](https://github.com/coinbase/build-onchain-apps)...
+[!BOAT](assets/BOAT.png)
+
+### Go places with [OAR](https://github.com/neodaoist/oar)
+[!OAR](assets/OAR.png)
 
 ## Documentation
 
@@ -34,10 +38,8 @@ $ forge fmt
 $ forge snapshot
 ```
 
-
 ### Deploy
 
 ```shell
-$ forge script script/Oar.s.sol:OarScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/OAR.s.sol:OarScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
-
