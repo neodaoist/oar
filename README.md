@@ -3,10 +3,10 @@
 **OAR is a permissionless registry for contextual information about onchain apps deployed on Base.**
 
 ### Build with [BOAT](https://github.com/coinbase/build-onchain-apps)...
-[!BOAT](assets/BOAT.png)
+[!BOAT](https://raw.githubusercontent.com/neodaoist/oar/main/assets/BOAT.png)
 
 ### Go places with [OAR](https://github.com/neodaoist/oar)
-[!OAR](assets/OAR.png)
+[!OAR](https://raw.githubusercontent.com/neodaoist/oar/main/assets/OAR.png)
 
 ## Documentation
 
